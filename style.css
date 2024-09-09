@@ -12,9 +12,8 @@ body, html {
     background-color: #1d2c45; /* Background color matching the image design */
 }
 
-.container {
-    position: relative;
-    text-align: center;
+      .container { margin: 60px auto auto; width: 1400px; text-align: center; 
+
 }
 
 .center-image {
