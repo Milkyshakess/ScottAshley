@@ -9,7 +9,7 @@ body, html {
 }
 
 body {
-    background-image: url('Welcome to My Design Portfolio.png');
+    background-image: url('Welcome%20to%20My%20Design%20Portfolio.png');
     background-size: contain; /* Ensures the entire image fits */
     background-repeat: no-repeat;
     background-position: center;
