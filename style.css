@@ -1,1 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d2c45; /* Background color matching the image design */
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.center-image {
+    width: 80%; /* Adjust the image size */
+    max-width: 600px; /* Maximum width of the image */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.linkedin-link {
+    position: absolute;
+    bottom: 50px; /* Adjust the vertical position of the link */
+    left: 250px; /* Adjust the horizontal position of the link */
+    font-size: 1.2rem;
+    color: #1d2c45;
+    background-color: #e9eef5;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.linkedin-link:hover {
+    background-color: #d6e1ed;
+}
 
