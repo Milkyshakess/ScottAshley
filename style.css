@@ -6,12 +6,36 @@
 
 body, html {
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
 }
 
-body {
-    background-image: url('Welcome%20to%20My%20Design%20Portfolio.png');
-    background-size: contain; /* Ensures the entire image fits */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #000; /* Fallback color in case the image doesn't load */
+.content {
+    text-align: center;
+}
+
+.center-image {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.linkedin-link:hover {
+    background-color: #005582;
 }
