@@ -30,7 +30,6 @@ body, html {
     left: 60%;    /* Adjust this to move the link horizontally */
     width: 40px;
     height: 40px;
-    background-color: transparent; /* Invisible link, but clickable */
-    background-image: url('arrow.png'); /* Optional, if you want an arrow icon */
+    background-color: #3260a8; /* Invisible link, but clickable */
     background-size: cover;
 }
