@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -10,13 +9,9 @@ body, html {
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-img {
-    width: 130%;
-    height: 130%;
-    object-fit: cover;
+    background-image: url('your-image.jpg');
+    background-size: contain; /* Ensures the entire image fits */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000; /* Fallback color in case the image doesn't load */
 }
