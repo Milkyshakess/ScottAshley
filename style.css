@@ -9,16 +9,16 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1d2c45; /* Background color matching the image design */
+    background-color: #1d2c45;
 }
 
-      .container { margin: 60px auto auto; width: 1400px; text-align: center; 
-
+.container {
+    position: relative;
 }
 
 .center-image {
-    width: 100%; /* Adjust the image size */
-    max-width: 600px; /* Maximum width of the image */
+    width: 100%;
+    max-width: 800px; /* Adjust this to control the image size */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -26,17 +26,11 @@ body, html {
 
 .linkedin-link {
     position: absolute;
-    bottom: 500px; /* Adjust the vertical position of the link */
-    left: 2500px; /* Adjust the horizontal position of the link */
-    font-size: 1.2rem;
-    color: #1d2c45;
-    background-color: #e9eef5;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
+    bottom: 15%;  /* Adjust this to move the link vertically */
+    left: 60%;    /* Adjust this to move the link horizontally */
+    width: 40px;
+    height: 40px;
+    background-color: transparent; /* Invisible link, but clickable */
+    background-image: url('arrow.png'); /* Optional, if you want an arrow icon */
+    background-size: cover;
 }
-
-.linkedin-link:hover {
-    background-color: #d6e1ed;
-}
-
