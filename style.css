@@ -17,7 +17,7 @@ body, html {
 }
 
 .center-image {
-    width: 80%; /* Adjust the image size */
+    width: 100%; /* Adjust the image size */
     max-width: 600px; /* Maximum width of the image */
     height: auto;
     display: block;
@@ -26,8 +26,8 @@ body, html {
 
 .linkedin-link {
     position: absolute;
-    bottom: 50px; /* Adjust the vertical position of the link */
-    left: 250px; /* Adjust the horizontal position of the link */
+    bottom: 500px; /* Adjust the vertical position of the link */
+    left: 2500px; /* Adjust the horizontal position of the link */
     font-size: 1.2rem;
     color: #1d2c45;
     background-color: #e9eef5;
